@@ -1,0 +1,31 @@
+h1 {
+  color: brown;
+  font-size: 80px
+}
+
+img {
+    margin: 10px;
+}
+
+img:hover {
+  background-color: gold;
+}
+
+
+.cappuccino {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+
+}
+
+.latte {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+
+
+#heading {
+  color: sandybrown;
+}
