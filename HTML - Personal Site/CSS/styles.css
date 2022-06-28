@@ -1,0 +1,24 @@
+body{
+  background-color: powderblue;
+}
+
+h1 {
+  color: red;
+}
+
+h3 {
+  color: red;
+}
+
+hr {
+  border-color: grey;
+  border-style: dotted none none;
+  border-width: 6px;
+  height: 0;
+  width: 4%;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
