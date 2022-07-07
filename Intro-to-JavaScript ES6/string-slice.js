@@ -1,1 +1,2 @@
-alert(prompt("Compose your tweet: ").slice(0, 141));
+tweet = prompt("Compose your tweet: ");
+alert(tweet.slice(0, 140));
