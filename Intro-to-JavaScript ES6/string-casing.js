@@ -30,6 +30,7 @@ alert("Hello, " + capitaliseName);
 
 
 // My Code:
+
 var name = prompt("What is your name?");
 var first_char = (name.slice(0, 1)).toUpperCase();
 var rest_chars = (name.slice(1, name.length)).toLowerCase();
