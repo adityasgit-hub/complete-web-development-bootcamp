@@ -1,6 +1,6 @@
 var name = "Aditya";
 name.length;
 
+// You have written 108 characters, you have 32 characters left.
 var tweet = prompt("Compose your tweet: ");
-var tweetcount = tweet.length;
-alert("You have written " + tweetcount + " characters, you have " + (140 - tweetcount) + " characters left.");
+alert("You have written " + tweet.length + " characters, you have " + (140 - tweet.length) + " characters left.");
