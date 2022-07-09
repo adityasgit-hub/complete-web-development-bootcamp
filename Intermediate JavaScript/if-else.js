@@ -1,5 +1,4 @@
-// Control Statements: Using if-else conditionals and logic
-
+// Control Statements: Using if-else conditionals and logic.
 a = 4;
 b = 6;
 
