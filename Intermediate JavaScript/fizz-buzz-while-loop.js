@@ -23,3 +23,6 @@ function fizzBuzz() {
   
    console.log(output);
 }
+
+
+fizzBuzz();
