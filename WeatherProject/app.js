@@ -13,9 +13,12 @@ app.get("/", function(req, res) {
       const weatherData = JSON.parse(data)
       const temp = weatherData.main.temp
       const weatherDescription = weatherData.weather[0].description
+      const icon = weatherData.weather[0].icon
+      const imageURL = "https://openweathermap.org/img/wn/" + icon + "@2x.png"
       console.log(weatherDescription);
-      res.write("<h1>The temperature in Delhi is " + temp + " deg. celcius.</h1>")
-      res.write("<p>The weather is currently " + weatherDescription + ".</p>")
+      res.write("<h1>The temperature in Delhi is " + temp + " deg. celcius.</h1>");
+      res.write("<p>The weather is currently " + weatherDescription + ".</p>");
+      res.write("<img src=" + imageURL + ">");
       res.send()
       // res.send("<h1>The temperature in Delhi is " + temp + " deg. celcius.</h1>\n<h3>The weather is currently " + weatherDescription + ".</h3>");
     })
@@ -23,11 +26,6 @@ app.get("/", function(req, res) {
 
   // res.send("Server is up and running.");
 })
-
-
-
-
-
 
 app.listen(3000, function() {
   console.log("Server is running on port 3000.");
